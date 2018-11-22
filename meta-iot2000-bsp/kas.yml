@@ -25,6 +25,13 @@ repos:
     refspec: fe5c83312de11e80b85680ef237f8acb04b4b26e
     layers:
       meta-oe:
+      meta-networking:
+      meta-filesystems:
+      meta-python:
+
+  meta-virtualization:
+    url: http://git.yoctoproject.org/git/meta-virtualization
+    refspec: c4a1711dd31659b027c70c07e4ef6da98591ac95
 
 bblayers_conf_header:
   standard: |
